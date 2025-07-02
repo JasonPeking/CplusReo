@@ -1,0 +1,23 @@
+#include<iostream>
+#include<string>
+template<typename Type>
+const Type& GetMax(const Type& value1,const Type& value2){
+    if(value1>value2){
+        return value1;
+    }
+    else{
+        return value2;
+    }
+}
+template<typename Type>
+void DisplayComparsion(const Type& value1,const Type& value2){
+    std::cout<<"GetMax("<<value1<<","<<value2<<")";
+    atd::cout<<GetMax(value1,value2)<<std::endl;
+}
+int main(){
+    int num1=-101,num2=1011;
+    std::string name1="Jack",name2="David";
+    DisplayComparsion(num1,num2);
+    DisplayComparsion(name1,name2);
+    return 0;
+}
