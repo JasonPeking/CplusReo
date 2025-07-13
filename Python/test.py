@@ -1,3 +1,3 @@
-print("hello,world!")
-print("gap 1 day")
-print("I am so bad and tried.")
+print("Hello,World!")
+print("I am so bad and tired.")
+print("Learn Python.")
