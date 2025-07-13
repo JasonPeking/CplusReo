@@ -16,6 +16,7 @@ public:
     QLineEdit* le;
 private slots:
     void clickButton();
+    void clicktestButton();
 };
 
 #endif // BUTTONNUM_H
