@@ -17,6 +17,9 @@ public:
     Dialog(QWidget *parent = nullptr);
     ~Dialog();
 
+private slots:
+    void on_on_btnOpen_clicked();
+
 private:
     Ui::Dialog *ui;
 };

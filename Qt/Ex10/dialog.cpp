@@ -15,6 +15,6 @@ Dialog::~Dialog()
 
 void Dialog::on_on_btnOpen_clicked()
 {
-
+    QString curPath=QDir::currentPath();
 }
 
