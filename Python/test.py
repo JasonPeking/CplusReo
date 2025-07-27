@@ -1,8 +1,0 @@
-print("Hello,World!")
-print("I am so bad and tired.")
-print("Learn Python.")
-print("Clown")
-print("Love")
-print("Privacy is dead")
-print("Last")
-print("Hate")
